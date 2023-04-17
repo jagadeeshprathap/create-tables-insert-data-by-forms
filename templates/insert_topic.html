@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center>
+    <h1 style="background-color: greenyellow;">insert topic_name using html forms</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="tn" style="color: mediumblue;">topic_name</label>
+        <input type="'text" name="tn">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+  </center>  
+</body>
+</html>
